@@ -48,14 +48,14 @@ public class Main {
             animal.getFoodForAnimal(food2);
         });
     }
-
+    //TODO Task02
     public static void task02() {
         int result02 = 5 * AnimalEnum.LYNX.getArea() + 4 * AnimalEnum.COON.getArea() + 2 * AnimalEnum.KANGAROO.getArea()
                 + 7 * AnimalEnum.EAGLEBIRD.getArea() + 3 * AnimalEnum.OSTRICHBIRD.getArea()
                 + 15 * AnimalEnum.CARPFISH.getArea() + 7 * AnimalEnum.TARANFISH.getArea();
         System.out.println("\nTask02:\nCalculation of the minimum required area for zoo: " + result02 + " (sq.m.)");
     }
-
+    //TODO OptimalTask
     public static void OptimalTask() {
         int resultLandAnimal = 5 * AnimalEnum.LYNX.getWeight() + 4 * AnimalEnum.COON.getWeight()
                 + 2 * AnimalEnum.KANGAROO.getWeight() + 3 * AnimalEnum.OSTRICHBIRD.getWeight();
